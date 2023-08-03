@@ -1,0 +1,30 @@
+Day,Topic,Subtopics,Resources
+1,Introduction to MLOps and Model Deployment on Azure,"- Understanding MLOps and its significance in machine learning projects
+- Overview of Azure Machine Learning service for model deployment","- Microsoft Azure Documentation: Introduction to MLOps
+- Microsoft Azure Machine Learning Documentation"
+2,Preparing the Model for Deployment,"- Reviewing the process of model training and saving in .pkl or .sav format
+- Discussing the importance of preparing the model for deployment","- Microsoft Azure Machine Learning Documentation: Model Preparation and Deployment
+- Microsoft Learn: Preparing models for deployment"
+3,Deploying a Model in .pkl or .sav Format on Azure,"- Using Azure ML to deploy the pre-trained model as a web service
+- Testing the deployed model with sample data","- Microsoft Azure Machine Learning Documentation: Deploy a model to Azure
+- Microsoft Learn: Deploy a model as a web service"
+4,Implementing CI/CD Pipelines for Model Deployment,"- Understanding the role of CI/CD pipelines in MLOps
+- Integrating Azure ML with Azure DevOps for automated model deployment","- Microsoft Azure DevOps Documentation: Continuous Integration (CI) and Continuous Deployment (CD) Overview
+- Microsoft Azure Machine Learning Documentation: Azure DevOps integration for MLOps"
+5,Monitoring Model Health and Performance,"- Setting up monitoring for the deployed model in Azure
+- Implementing logging and telemetry for model health assessment","- Microsoft Azure Monitor Documentation: Overview
+- Microsoft Azure Machine Learning Documentation: Monitor models in Azure"
+6,Introduction to Docker and Containers for MLOps,"- Understanding containerization and its benefits in MLOps
+- Dockerizing the deployed model for consistency and portability","- Docker Documentation: Introduction to Docker
+- Microsoft Azure Container Instances Documentation"
+7,Deploying Dockerized Models on Azure,"- Deploying the containerized model on Azure using Azure Container Instances (ACI) or Azure Kubernetes Service (AKS)","- Microsoft Azure Container Instances Documentation: Deploy a container
+- Microsoft Azure Kubernetes Service Documentation: Quickstart"
+8,Introduction to Kubernetes for MLOps,"- Understanding Kubernetes and its role in orchestrating containerized applications
+- Deploying the model on AKS for scalable and reliable model serving","- Kubernetes Documentation: Concepts
+- Microsoft Azure Kubernetes Service Documentation: Overview"
+9,Deploying Models for Batch Processing,"- Automating batch processing of data using Azure ML pipelines
+- Deploying models for batch predictions on a schedule or trigger","- Microsoft Azure Machine Learning Documentation: Azure ML Pipelines
+- Microsoft Learn: Create a batch data pipeline with Azure Machine Learning"
+10,Deploying Models for Real-time Predictions,"- Creating an API endpoint for single instance predictions using Azure Functions or Azure Kubernetes Service (AKS)
+- Testing real-time predictions with sample data","- Microsoft Azure Functions Documentation: Create your first function using Azure Functions
+- Microsoft Azure Kubernetes Service Documentation: Deploy and manage containers using AKS"
